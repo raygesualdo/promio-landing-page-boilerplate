@@ -1,0 +1,11 @@
+{
+  "name": "promio-landing-page-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate to facilate rapid preparation of landing pages for Promio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ray Gesualdo <ray@promio.com>",
+  "license": "MIT"
+}
