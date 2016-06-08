@@ -49,31 +49,31 @@ When building a form, there are a fixed set of allowed input names (`<input name
 
 | Name Value | Snippet | Explanation |
 | ---------- | ------- | ----------- |
-| inputFName | `<input name="inputFName" />` | Customer's first name |
-| inputLName | `<input name="inputLName" />` | Customer's last name |
-| inputEmail | `<input name="inputEmail" />` | Customer's email address |
-| inputPhone | `<input name="inputPhone" />` | Customer's phone number |
-| inputAddress | `<input name="inputAddress" />` | Customer's first address line |
-| inputAddress2 | `<input name="inputAddress2" />` | Customer's second address line |
-| inputAddress3 | `<input name="inputAddress3" />` | Customer's third address line |
-| inputCity | `<input name="inputCity" />` | Customer's city |
-| inputStProvince | `<input name="inputStProvince" />` | Customer's state or province |
-| inputZip | `<input name="inputZip" />` | Customer's zip/postal code |
-| inputCountry | `<input name="inputCountry" />` | Customer's country |
-| inputBirthdate | `<input name="inputBirthdate" />` | Customer's birthday |
-| inputGender | `<input name="inputGender" />` | Customer's gender |
-| inputCompanyName | `<input name="inputCompanyName" />` | Customer's name of company/employer |
-| inputMobilePhone | `<input name="inputMobilePhone" />` | Customer's cell phone number |
-| inputTitle | `<input name="inputTitle" />` | Customer's business title |
-| inputWorkPhone | `<input name="inputWorkPhone" />` | Customer's work phone number |
-| inputFax | `<input name="inputFax" />` | Customer's personal fax number |
-| inputWorkFax | `<input name="inputWorkFax" />` | Customer's work fax number |
+| `inputFName` | `<input name="inputFName" />` | Customer's first name |
+| `inputLName` | `<input name="inputLName" />` | Customer's last name |
+| `inputEmail` | `<input name="inputEmail" />` | Customer's email address |
+| `inputPhone` | `<input name="inputPhone" />` | Customer's phone number |
+| `inputAddress` | `<input name="inputAddress" />` | Customer's first address line |
+| `inputAddress2` | `<input name="inputAddress2" />` | Customer's second address line |
+| `inputAddress3` | `<input name="inputAddress3" />` | Customer's third address line |
+| `inputCity` | `<input name="inputCity" />` | Customer's city |
+| `inputStProvince` | `<input name="inputStProvince" />` | Customer's state or province |
+| `inputZip` | `<input name="inputZip" />` | Customer's zip/postal code |
+| `inputCountry` | `<input name="inputCountry" />` | Customer's country |
+| `inputBirthdate` | `<input name="inputBirthdate" />` | Customer's birthday |
+| `inputGender` | `<input name="inputGender" />` | Customer's gender |
+| `inputCompanyName` | `<input name="inputCompanyName" />` | Customer's name of company/employer |
+| `inputMobilePhone` | `<input name="inputMobilePhone" />` | Customer's cell phone number |
+| `inputTitle` | `<input name="inputTitle" />` | Customer's business title |
+| `inputWorkPhone` | `<input name="inputWorkPhone" />` | Customer's work phone number |
+| `inputFax` | `<input name="inputFax" />` | Customer's personal fax number |
+| `inputWorkFax` | `<input name="inputWorkFax" />` | Customer's work fax number |
 
 
 ## Todos
-- Add more notifications
+- More notifications
 - Better error handling (add `gulp-plumber`)
-- Build out index.html with inline comments
+- Build out `index.html` with inline comments
 - Convert `sass` task to handle multiple sass files
 - JS linting
 
