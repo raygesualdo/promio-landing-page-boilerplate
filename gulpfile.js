@@ -197,10 +197,10 @@ gulp.task('default', cb => serial('clean', 'serve', cb));
 gulp.task('serve', ['build:dev', 'browser-sync']);
 
 // Compile files for development
-gulp.task('build:dev', ['sass:dev', 'css', 'vendorscripts', 'js:dev', 'images', 'html:dev']);
+gulp.task('build:dev', ['sass:dev', 'css', 'vendorscripts', 'js:dev', 'images', 'fonts', 'html:dev']);
 
 // Compile files for production
-gulp.task('build:prod', ['sass:prod', 'css', 'vendorscripts', 'js:prod', 'images', 'html:prod']);
+gulp.task('build:prod', ['sass:prod', 'css', 'vendorscripts', 'js:prod', 'images', 'fonts', 'html:prod']);
 
 // Deploy!!!
 gulp.task('deploy', cb => serial('clean', 'build:prod', 's3', cb));
