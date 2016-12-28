@@ -290,5 +290,9 @@ var replacePatterns = [
 	{
 		'match':'inputWorkFax',
 		'replacement':'asset_27'
+	},
+	{
+		'match':'inputComment',
+		'replacement':'asset_42'
 	}
 ]

@@ -68,6 +68,7 @@ When building a form, there are a fixed set of allowed input names (`<input name
 | `inputWorkPhone` | `<input name="inputWorkPhone" />` | Customer's work phone number |
 | `inputFax` | `<input name="inputFax" />` | Customer's personal fax number |
 | `inputWorkFax` | `<input name="inputWorkFax" />` | Customer's work fax number |
+| `inputComment` | `<input name="inputComment" />` | Customer's comments or description of need |
 
 
 ## Todos
