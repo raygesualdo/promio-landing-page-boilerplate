@@ -74,7 +74,7 @@ gulp.task('css', () => {
 //   - copy
 gulp.task('fonts', () => {
   return gulp
-    .src('fonts/*')
+    .src('fonts/**/*.{css,otf,eot,svg,ttf,woff,woff2}')
     .pipe(gulp.dest('build/fonts'))
     .on('error', notifyError('Error running css task [dest]'));
 });
