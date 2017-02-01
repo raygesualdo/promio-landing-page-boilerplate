@@ -17,6 +17,7 @@ var imagemin = require('gulp-imagemin');
 var browserSync = require('browser-sync').create();
 var notify = require('gulp-notify');
 var s3 = require('gulp-s3-upload')();
+var zip = require('gulp-zip');
 
 // Clean files out of the `build` directory
 gulp.task('clean', () => {
@@ -154,6 +155,19 @@ gulp.task('html:prod', () => {
     .on('error', notifyError('Error running html task [cdnify]'))
     .pipe(gulp.dest('build/'))
     .on('error', notifyError('Error running html task [dest]'));
+});
+
+// Create ZIP archive for handoff
+gulp.task('zip', () => {
+  return gulp
+    .src(
+      ['**/*', '!.git/**', '!build/**', '!node_modules/**'],
+      {base: './', dot: true, nodir: true}
+    )
+    .pipe(zip('archive.zip'))
+    .on('error', notifyError('Error running zip task [zip]'))
+    .pipe(gulp.dest('./'))
+    .on('error', notifyError('Error running zip task [dest]'))
 });
 
 // Serve files during development w/Browsersync
